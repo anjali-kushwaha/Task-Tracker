@@ -1,0 +1,117 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: 'Rubik', sans-serif ;
+    background-color: #b197fc;
+    color: #222;
+    
+}
+  
+.container{
+    max-width: 800px;
+    border: 2px solid #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 9px;
+    background-color: #e5dbff;
+}
+  
+header h1{
+    font-size: 40px;
+    margin-left: 250px;
+    margin-bottom: 20px;  
+}
+  
+.task-form, .form-group, .btn {
+    width: 100%; 
+}
+ 
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+  
+  
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea,
+select {
+  appearance: none;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  background-color: #d0bfff;
+  color: #222;
+  
+}
+
+.form-group select option{
+   background-color: #b197fc;
+   
+}
+
+  
+.btn {
+    background-color: #cc5de8;
+    margin: 15px auto; 
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; 
+}
+  
+.btn:hover, .btn:focus {
+    background-color: #862e9c;
+    box-shadow: 0 0 8px rgba(255,255,255,0.2);
+
+}
+   
+.task-list div {
+    background: #b197fc;
+    border: 2px solid #dee2e6;
+    color: #333;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;   
+}
+
+.task-list button{
+    margin-top: 10px;
+    padding: 7px 15px 7px 15px;
+    margin-right: 12px;
+    border-radius: 4px;
+    background: #cc5de8;
+    color: #e5dbff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.task-list button:hover{
+    background-color: #862e9c;
+    
+}
+
+.task-list h3{
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+
+.task-list p{
+    margin-bottom: 10px;
+}
